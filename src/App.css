@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  display: flex;
+  
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.Card {
+  width: 250px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  box-shadow: 0px 0px 8px -5px grey;
+  margin: 20px;
+}
+
+.Card .card-main {
+  text-align: start;
+  padding: 16px;
+  padding-top: 0;
+}
+
+.Card a {
+  margin-top: 16px;
+  display: inline-block;
+  background-color: #0f7ffa;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  padding-inline: 10px;
+  border-radius: 4px;
+  text-shadow: 0px 1px 3px black;
+}
+
+.Card img {
+  width: 100%;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
